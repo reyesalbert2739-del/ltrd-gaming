@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#080808" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="apple-touch-icon" href="favicon.png" />
+  <title>LTRD — Leave Them Rattled</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <section class="join-gate" id="joinGate" aria-labelledby="join-title">
+    <div class="gate-top"><span>EST. 2026</span><span>WORLDWIDE / ONLINE</span></div>
+    <div class="gate-main">
+      <p class="eyebrow">YOU FOUND THE SIGNAL</p>
+      <img class="gate-logo" src="ltrd-logo.png" alt="LTRD logo" />
+      <h1 id="join-title">DO YOU WANT<br>TO JOIN <i>LTRD?</i></h1>
+      <p class="gate-copy">A place for players who show up, level up, and leave the lobby rattled.</p>
+      <div class="gate-actions">
+        <button class="button button-red" id="joinYes">YES — LET'S GO <b>↗</b></button>
+        <button class="button button-ghost" id="joinNo">NOT YET</button>
+      </div>
+    </div>
+    <div class="gate-bottom"><span>SCROLL TO ENTER</span><span class="status"><b></b> RECRUITMENT OPEN</span></div>
+  </section>
+
+  <main id="site" hidden>
+    <nav>
+      <a href="#home" class="brand"><img src="ltrd-logo.png" alt="LTRD" /></a>
+      <div class="nav-links"><a href="#about">ABOUT</a><a href="#squad">SQUAD</a><a href="#contact">CONTACT</a></div>
+      <a class="discord-mini" href="https://discord.gg/E2MEZCPhp" target="_blank" rel="noopener noreferrer">DISCORD ↗</a>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">THE NEXT WAVE OF COMPETITIVE GAMING</p>
+        <h1>LEAVE<br>THEM <em>RATTLED.</em></h1>
+        <p class="hero-copy">LTRD is a gaming collective built for the ones who play with purpose. No spectators. No apologies.</p>
+        <a class="button button-red" href="https://discord.gg/E2MEZCPhp" target="_blank" rel="noopener noreferrer">JOIN THE DISCORD <b>↗</b></a>
+      </div>
+      <div class="hero-meta"><span>01 / LTRD GAMING</span><span>PLAY LOUD. PLAY TOGETHER.</span></div>
+    </section>
+
+    <section class="marquee"><div>ENTER THE LOBBY <i>✦</i> FIND YOUR SQUAD <i>✦</i> MAKE SOME NOISE <i>✦</i> ENTER THE LOBBY <i>✦</i> FIND YOUR SQUAD <i>✦</i></div></section>
+
+    <section class="about section" id="about">
+      <p class="eyebrow">01 / OUR CODE</p>
+      <div class="about-grid">
+        <h2>MORE THAN<br>A <i>TAG.</i></h2>
+        <div><p>LTRD is a community for gamers who want more from every match. We chase clips, compete hard, and keep the energy on when the game is over.</p><a class="text-link" href="#contact">MEET THE COMMUNITY <b>→</b></a></div>
+      </div>
+    </section>
+
+    <section class="squad section" id="squad">
+      <div class="section-heading"><p class="eyebrow">02 / THE SQUAD</p><p>PLAY YOUR WAY</p></div>
+      <div class="game-grid">
+        <article class="game-card one"><span>01</span><h3>COMPETE</h3><p>Ranked grinders. Tournament chasers.</p></article>
+        <article class="game-card two"><span>02</span><h3>CREATE</h3><p>Clips, streams, and unforgettable moments.</p></article>
+        <article class="game-card three"><span>03</span><h3>CONNECT</h3><p>Your people are waiting in the lobby.</p></article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-stamp">LTRD<br>GAMING<br><span>2026</span></div>
+      <p class="eyebrow">03 / GET CONNECTED</p>
+      <h2>READY TO<br>RUN IT <i>BACK?</i></h2>
+      <p>Join the LTRD Discord. Find teammates, share your wins, and get in on what’s next.</p>
+      <a class="button button-light" href="https://discord.gg/E2MEZCPhp" target="_blank" rel="noopener noreferrer">JOIN OUR DISCORD <b>↗</b></a>
+      <p class="discord-handle">DISCORD: <span>discord.gg/E2MEZCPhp</span></p>
+    </section>
+
+    <footer><a class="brand" href="#home"><img src="ltrd-logo.png" alt="LTRD" /></a><span>LEAVE THEM RATTLED.</span><span>© 2026 LTRD GAMING</span></footer>
+  </main>
+  <div class="toast" id="toast">COME BACK WHEN YOU'RE READY.</div>
+  <script src="script.js"></script>
+</body>
+</html>
